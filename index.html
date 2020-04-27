@@ -5,7 +5,7 @@
         <meta name="description" content="Bee Trucking Inc.">
         <meta charset="utf-8">
         <html lang="en-US"></html>
-        <link rel="icon" href="b.ico" type="image/x-icon">
+        <link rel="icon" href="beeb.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <script src="https://kit.fontawesome.com/557487eecb.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -168,6 +168,10 @@
       left: 0;
       min-width: 100%;
       height: 32rem;
+      /* background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; */
+
     }
     
     
@@ -240,6 +244,10 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 } 
+/* .card-img-top {
+  width:  100px;
+    height: 100px;
+} */
         </style>
       </head>
   <body>
@@ -286,7 +294,7 @@
           <img src="cover.JPG" alt="Los Angeles">
           <div class="container">
                 <div class="carousel-caption text-left" data-aos="fade-in"> 
-                  <p>The best truck company in Los Angeles.</p>
+                  <p style="font-size: 25px;">The best truck company in Los Angeles.</p>
                   <p><a class="btn btn-lg btn-primary" href="#about" role="button">Learn More</a></p>
                 </div>
               </div>
@@ -295,7 +303,7 @@
           <img src="cover2.jpg" alt="New York">
           <div class="container">
                 <div class="carousel-caption text-left" data-aos="fade-in">
-                  <p>Competitive rates per load or hourly rate.</p>
+                  <p style="font-size: 25px;">Competitive rates per load or hourly rate.</p>
                   <p><a class="btn btn-lg btn-primary" href="#contact" role="button">Get a Quote</a></p>
                 </div>
               </div>
@@ -312,21 +320,22 @@
     
     </div>
 
-    <div class="jumbotron jumbotron-fluid" id="services">
-      <div class="container" >
-        <h1 class="display-4"  data-aos="fade-up"id="title">Our Services</h1>
+    <div class="jumbotron jumbotron-fluid" id="services" >
+      <div class="container" data-aos="fade-up" >
+        <h1 class="display-4" id="title">Our Services</h1>
  
         <hr class="my-4">
         <p class="lead">Whatever the job is, Bee Trucking can TRUCK IT!! Construction Trucking Services in Southern California.</p>
     </div>
 
-    <div class="container" id="columns">
+    <div class="container" id="columns" data-aos="fade-up">
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 box-shadow hvr-grow-shadow ">
-            <img class="card-img-top" src="low.JPG" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img class="card-img-top img-fluid" src="a.jpg" alt="Card image cap">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Super 10 Dump Trucks</h5>
+              <!-- <p class="card-text" >We own and operate Super 10 Dump Trucks specialized for hauling and dumping.               </p> -->
               <div class="d-flex justify-content-between align-items-center">
       
               </div>
@@ -335,9 +344,10 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow hvr-grow-shadow ">
-            <img class="card-img-top" src="high.JPG" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img class="card-img-top img-fluid" src="truck4.jpg" alt="Card image cap">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">High Side Hauling</h5>
+              <!-- <p class="card-text">High Side trailers are available with capacity for all your hauling needs.                  </p> -->
               <div class="d-flex justify-content-between align-items-center">
       
               </div>
@@ -346,9 +356,10 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow hvr-grow-shadow ">
-            <img class="card-img-top" src="truck4.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img class="card-img-top img-fluid" src="c.jpg" alt="Card image cap">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Low or Flatbed Hauling</h5>
+                            <!-- <p class="card-text">Low or Flatbed trailers are available to haul cargo for all of your hauling needs.          </p> -->
               <div class="d-flex justify-content-between align-items-center">
       
               </div>
@@ -357,9 +368,22 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow hvr-grow-shadow ">
-            <img class="card-img-top" src="truck4.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img class="card-img-top img-fluid" src="d.png" alt="Card image cap">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Bobcat Equipment</h5>
+                            <!-- <p class="card-text">Bobcat equipment are available to demolish and excavate for all of your construction needs.  </p> -->
+              <div class="d-flex justify-content-between align-items-center">
+      
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow hvr-grow-shadow ">
+            <img class="card-img-top img-fluid" src="material.png" alt="Card image cap">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Materials</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Gravel - Sand - Top Soil </h6>
               <div class="d-flex justify-content-between align-items-center">
       
               </div>
@@ -380,7 +404,8 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolore repellat laborum facere illo, veniam et doloribus minima necessitatibus, voluptatibus, est eos amet? Perferendis optio earum recusandae tempora ut distinctio.
+              <p>Bee Trucking Inc. is a dump trucking company founded in 2005 based out of Sylmar, CA. Through experience and consistency, Bee Trucking Inc. has become an industry leader in transportation and hauling. Whatever the job is  Bee Trucking Inc. provides reliable and trustworthy services to our clients
+                . These are reasons why you should chose us over other competitors -
               </p>
               <ul>
                  <p><i class="fas fa-check"></i> 15 years of experience!</p>
@@ -397,10 +422,10 @@
 
     </div>
 
-    <div class="jumbotron" id="contact" style="color: black;">
-      <h1 class="display-4 " data-aos="fade-up" id="title">Contact Us</h1>
+    <div class="jumbotron" id="contact" style="color: black;" >
+      <h1 class="display-4 " id="title" data-aos="fade-up">Contact Us</h1>
       <hr class="my-4">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <form action="contactus.php" method="post">
           <div class="form-group">
             <label for="usr">Name:</label>
